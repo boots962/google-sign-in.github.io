@@ -1,0 +1,41 @@
+body{
+    background-color: #9fafb6;
+}
+
+.signincontainer{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background-color: white;
+    
+
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 14px;
+}
+.sign{
+    font-weight: bold;
+    font-size: 3vmax;
+}
+.acc{
+    top:25%;
+    left:75%;
+}
+.logo{
+    width: 10vmin;
+    height: 10vmax;
+}
+.emnput{
+    top: 25%;
+    left: 75%;
+    width:max-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+    align-content: center;
+}
+
+.sub{
+    padding: 10px 20px;
+    border-radius: 16px;
+    background-color: rgb(100, 100, 216);
+    text-decoration-color: #fff;
+}
