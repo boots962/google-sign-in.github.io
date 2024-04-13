@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Sign in</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+    <script src="https://apis.google.com/js/api.js"></script>
+
+ 
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="signin">
@@ -21,21 +26,21 @@
             <div class="acc">
                 Use your Google account
             </div>
-
+            <a href="https://support.google.com/accounts/answer/7682439?hl=en" class="forgotE">
+                Forgot Email?
+            </a>
+            <p class="notComp">
+                Not your computer? Use Guest mode to sign in privately. <a class="learn" href="https://support.google.com/accounts/answer/2917834?hl=en&co=GENIE.Platform%3DDesktop">Learn more</a>
+            </p>
             <div class="input">
-                <div class="email" >
-                    <input class="emnput" type="text" id="email" name="email" text="Enter email">
+                <div class="email">
+                    <input class="emnput" type="text" id="email" name="email" placeholder="Email or phone">
                 </div>
-                <div class="pass">
-                    
-                     <label for="fpassword">Enter password</label>
-                    <input type="password" id="fpassword" name="fpassword">
-                </div>
-                <input class="sub" type="button" text="next" id="next">
+                <button type="button" class="sub" onclick="showPassword()">Next</button>
             </div>
+
         </div>
     </div>
-   
-    
+  
 </body>
 </html>
